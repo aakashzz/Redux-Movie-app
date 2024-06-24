@@ -7,7 +7,7 @@ const responseSlice = createSlice({
     },
     reducers:{
         dataCatch: (state, action)=>{
-            state.data = [action.payload.data];
+            state.data = action.payload;
         },
         dataRemove: (state) =>{
             state.data = [null]

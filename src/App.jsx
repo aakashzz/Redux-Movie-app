@@ -1,12 +1,12 @@
 import React from "react";
 import Home from "./components/Home/Home";
 import Header from "./components/Header/Header";
-
 function App() {
    return (
-      <body className="bg-slate-900 h-screen w-full">
+      <main className="bg-slate-900 h-[100%] w-full">
          <Header />
-      </body>
+         <Home />
+      </main>
    );
 }
 
